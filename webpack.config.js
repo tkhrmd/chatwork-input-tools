@@ -1,9 +1,12 @@
 const webpack = require('webpack');
 
 module.exports = {
-  entry: './src/app.js',
+  entry: {
+    loader: './src/app-loader.js',
+    bundle: './src/app.js',
+  },
   output: {
-    filename: 'bundle.js',
+    filename: '[name].js',
     path: './build',
   },
   module: {

@@ -1,7 +1,7 @@
 {
   "content_scripts": [{
     "include_globs": ["https://www.chatwork.com/#!rid*", "https://kcw.kddi.ne.jp/#!rid*"],
-    "js": ["build/bundle.js"],
+    "js": ["build/loader.js"],
     "matches": ["https://www.chatwork.com/*", "https://kcw.kddi.ne.jp/*"],
     "run_at": "document_end"
   }],
@@ -9,5 +9,8 @@
   "manifest_version": 2,
   "name": "Chatwork Input Tools",
   "permissions": ["tabs", "https://www.chatwork.com/*", "https://kcw.kddi.ne.jp/*"],
-  "version": "0.2"
+  "version": "0.2",
+  "web_accessible_resources": [
+    "build/bundle.js"
+  ]
 }
