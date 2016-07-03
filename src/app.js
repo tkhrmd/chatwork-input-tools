@@ -1,4 +1,4 @@
 import './textarea.js';
-import './large-to-list.js';
-import './tag-button.css';
-import './tag-button.js';
+import './to-list.js';
+import './send-tool.css';
+import './send-tool.js';

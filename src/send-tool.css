@@ -1,13 +1,4 @@
-#_chatSendToolExtension {
-  display: inline-block;
-  list-style: none;
-}
-
-#_chatSendToolExtension li {
-  display: inline-block;
-}
-
-#_chatSendToolExtension li span {
+#_chatSendTool .extended span {
   -webkit-user-select: none;
   border-radius: 2px;
   color: #ffffff;
@@ -20,10 +11,10 @@
   top: 1px;
 }
 
-#_chatSendToolExtension .tag {
+#_chatSendTool .extended .tag {
   background-color: #444444;
 }
 
-#_chatSendToolExtension .emo {
+#_chatSendTool .extended .emo {
   background-color: #ffa000;
 }
