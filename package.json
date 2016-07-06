@@ -2,10 +2,10 @@
   "name": "chatwork-input-tools",
   "version": "1.0.0",
   "description": "",
-  "main": "script.js",
+  "main": "build/loader.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rm -rf tmp build && babel src --out-dir tmp --presets es2015 && mkdir build && browserify tmp/main.js | uglifyjs -o build/content-script.js && cp src/manifest.json src/style.css build/"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
