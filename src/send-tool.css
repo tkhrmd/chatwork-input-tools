@@ -1,3 +1,14 @@
+#_chatSendTool .extended {
+  opacity: 0.8;
+  display: inline-block;
+  padding: 0 5px;
+  cursor: pointer;
+}
+
+#_chatSendTool .extended:hover {
+  opacity: 1;
+}
+
 #_chatSendTool .extended .icon {
   -webkit-user-select: none;
   border-radius: 2px;
