@@ -9,7 +9,7 @@
   "manifest_version": 2,
   "name": "Chatwork Input Tools",
   "permissions": ["tabs", "https://www.chatwork.com/*", "https://kcw.kddi.ne.jp/*"],
-  "version": "0.4",
+  "version": "0.5",
   "web_accessible_resources": [
     "build/bundle.js"
   ]
