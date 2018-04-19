@@ -1,16 +1,15 @@
 {
   "content_scripts": [{
-    "include_globs": ["https://www.chatwork.com/#!rid*", "https://kcw.kddi.ne.jp/#!rid*"],
-    "js": ["build/loader.js"],
+    "js": ["content_scripts.js"],
+    "css": ["content_scripts.css"],
     "matches": ["https://www.chatwork.com/*", "https://kcw.kddi.ne.jp/*"],
     "run_at": "document_end"
   }],
-  "description": "チャットワークに[info]や[code]を入力するボタンを追加します。",
+  "description": "__MSG_appDesc__",
   "manifest_version": 2,
   "name": "Chatwork Input Tools",
-  "permissions": ["tabs", "https://www.chatwork.com/*", "https://kcw.kddi.ne.jp/*"],
-  "version": "0.5",
+  "version": "0.6",
   "web_accessible_resources": [
-    "build/bundle.js"
+    "dist/main.js"
   ]
 }
