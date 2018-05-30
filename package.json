@@ -24,7 +24,5 @@
     "webpack": "^4",
     "webpack-cli": "^2"
   },
-  "dependencies": {
-    "jquery": "^3"
-  }
+  "dependencies": {}
 }
