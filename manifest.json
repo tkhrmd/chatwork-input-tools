@@ -9,7 +9,7 @@
   "description": "__MSG_appDesc__",
   "manifest_version": 2,
   "name": "Chatwork Input Tools",
-  "version": "1.1",
+  "version": "1.2",
   "web_accessible_resources": [
     "dist/main.js"
   ]
