@@ -22,7 +22,6 @@
   font-size: 12px;
   line-height: 12px;
   padding: 2px 4px;
-  text-align: center;
 }
 
 ._ext_sendtool_icon_tag {
@@ -33,6 +32,3 @@
   background-color: #ffa000;
 }
 
-._ext_tooltip_selectall {
-  float: right;
-}
