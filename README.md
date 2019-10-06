@@ -12,4 +12,3 @@ https://chrome.google.com/webstore/detail/chatwork-input-tools/iaemcpeoioekjbbep
 ## Author
 
 Takahiro Maeda
-

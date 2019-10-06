@@ -1,4 +1,10 @@
-._ext_sendtool_icon {
+#__chatworkInputTools_toolbarIcons
+{
+  display: flex;
+  align-items: center;
+}
+
+.__chatworkInputTools_toolbarIcon {
   align-items: center;
   cursor: pointer;
   display: flex;
@@ -7,12 +13,12 @@
   margin: 0 4px;
 }
 
-._ext_sendtool_icon:hover {
+.__chatworkInputTools_toolbarIcon:hover {
   opacity: 1;
 }
 
-._ext_sendtool_icon_tag,
-._ext_sendtool_icon_emo {
+.__chatworkInputTools_toolbarIcon_tag,
+.__chatworkInputTools_toolbarIcon_emo {
   -webkit-user-select: none;
   align-items: center;
   border-radius: 2px;
@@ -24,11 +30,10 @@
   padding: 2px 4px;
 }
 
-._ext_sendtool_icon_tag {
+.__chatworkInputTools_toolbarIcon_tag {
   background-color: #444444;
 }
 
-._ext_sendtool_icon_emo {
+.__chatworkInputTools_toolbarIcon_emo {
   background-color: #ffa000;
 }
-
